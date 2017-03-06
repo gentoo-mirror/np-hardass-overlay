@@ -1,20 +1,22 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
 
-inherit linux-mod
+inherit linux-mod flag-o-matic
 
 DESCRIPTION="Kernel module for Highpoint RocketRaid 62x raid cards"
 HOMEPAGE="http://www.highpoint-tech.com/USA_new/series_rr600-overview.htm"
 
 MOD="rr62x"
-DATE="120601"
-REV="1355"
+DATE="130822"
+REV="17639"
 A_DIR="${MOD}-linux-src-v${PV}"
 
-SRC_URI="http://www.highpoint-tech.com/BIOS_Driver/${MOD}/linux/${A_DIR}-${DATE}-${REV}.tar.gz -> ${P}.tar.gz"
+#SRC_URI="http://www.highpoint-tech.com/BIOS_Driver/${MOD}/linux/${A_DIR}-${DATE}-${REV}.tar.gz -> ${P}.tar.gz"
+#Not hosted by upstream anymore, only available via ubuntu
+SRC_URI="https://help.ubuntu.com/community/RocketRaid?action=AttachFile&do=get&target=${A_DIR}-${DATE}-${REV}.tar.gz -> ${P}.tar.gz"
 
 RESTRICT="mirror"
 
@@ -25,11 +27,16 @@ IUSE=""
 
 S="${WORKDIR}/${A_DIR}"
 
+PATCHES=(
+	"${FILESDIR}/${P}-support-kernel-4-Makefile.patch"
+	"${FILESDIR}/${P}-support-kernel-4.7-fix-inode-mutex.patch"
+)
+
 pkg_pretend() {
-	if kernel_is gt 2 6 31; then
+	if kernel_is gt 3 10 5; then
 		ewarn "Upstream has only confirmed that this package compiles for kernel "
-		ewarn "versions up to 2.6.31. That said, this package should compile"
-		ewarn "kernel versions up to, but not including 3.x"
+		ewarn "versions up to 3.10.5.  That being said, package should compile"
+		ewarn "up to, but not including 4.8."
 		ewarn ""
 		ewarn "You are free to utilize epatch_user to provide whatever"
 		ewarn "support you feel is appropriate, but you will not receive"
@@ -44,7 +51,7 @@ pkg_setup() {
 
 	MODULE_NAMES="${MOD}(raid:${S}/product/${MOD}/linux:${S}/product/${MOD}/linux)"
 	BUILD_PARAMS="KERNELDIR=${KERNEL_DIR}"
-	BUILD_TARGETS="rr62x"
+	BUILD_TARGETS=" "
 }
 
 src_prepare() {
@@ -52,5 +59,8 @@ src_prepare() {
 	sed -i -e "s/MAJOR :=.*/MAJOR := ${KV_MAJOR}/g" inc/linux/Makefile.def || die "sed failed"
 	sed -i -e "s/MINOR :=.*/MINOR := ${KV_MINOR}/g" inc/linux/Makefile.def || die "sed failed"
 
-	epatch_user
+	#Fix -Werror=date-time
+	sed -i 's/ (" __DATE__ " " __TIME__ ")//' product/rr62x/linux/config.c || die "sed failed"
+
+	default
 }
