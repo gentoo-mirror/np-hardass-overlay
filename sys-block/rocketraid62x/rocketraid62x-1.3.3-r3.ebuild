@@ -30,13 +30,14 @@ S="${WORKDIR}/${A_DIR}"
 PATCHES=(
 	"${FILESDIR}/${P}-support-kernel-4-Makefile.patch"
 	"${FILESDIR}/${P}-support-kernel-4.7-fix-inode-mutex.patch"
+	"${FILESDIR}/${P}-support-kernel-4.8-fix-gendev-driverfs_dev-ref.patch"
 )
 
 pkg_pretend() {
 	if kernel_is gt 3 10 5; then
 		ewarn "Upstream has only confirmed that this package compiles for kernel "
 		ewarn "versions up to 3.10.5.  That being said, package should compile"
-		ewarn "up to, but not including 4.8."
+		ewarn "up to 4.8."
 		ewarn ""
 		ewarn "You are free to utilize epatch_user to provide whatever"
 		ewarn "support you feel is appropriate, but you will not receive"
