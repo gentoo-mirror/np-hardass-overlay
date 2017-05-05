@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=http://www.brother.com/pub/bsc/linux/dlf/cupswrapperMFC7860DW-2.0.4-2.i386.rpm
 _eclass_exported_funcs=pkg_postinst:- src_unpack:rpm src_prepare:- src_configure:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	rpm	f52cfa3a435468d86d3b49c357b9cb35	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=69a7daa37acfc9b1f17a30f6c5261dcf
+_md5_=0a3cb4ef5a05919f3ff95ea628baefff

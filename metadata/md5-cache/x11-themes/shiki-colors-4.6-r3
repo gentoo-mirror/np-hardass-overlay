@@ -9,4 +9,4 @@ RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://gnome-colors.googlecode.com/files/shiki-colors-4.6.tar.gz https://dev.gentoo.org/~pacho/Shiki-Gentoo-4.6.tar.bz2
 _eclass_exported_funcs=src_compile:- src_install:-
-_md5_=a74163cb644e8ae1a590d822c3284fc9
+_md5_=8e5120125cc99ff36c7c8d5c1f8d2f53
