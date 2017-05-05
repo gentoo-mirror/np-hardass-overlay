@@ -1,9 +1,13 @@
+app-admin/keepasshttp 1.8.4.1-r2 9999: KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
+app-admin/kpentrytemplates 7.3 9999: KeePass Entry Templates for custom gui displays of your entries
 app-crypt/acme-tiny 9999: A tiny, auditable script for Let's Encrypt's ACME Protocol
 app-laptop/dellfand 0.9-r1: Dell laptop fan regulator for Linux/Solaris.
 dev-python/pyshorteners 0.3.0 9999: A simple URL shortening Python Lib, implementing the most famous shorteners.
 games-board/aisleriot 3.2.3.2-r1: A collection of solitaire card games for GNOME
 media-libs/librealsense 1.9.4-r1 9999: Intel's RealSense 3D Camera API
+media-libs/sfarklib 2.24 9999: SoundFont compression library
 media-sound/pithos 0.3.17-r3: A Pandora Radio (pandora.com) player for the GNOME Desktop
+media-sound/sfarkxtc 9999: SoundFont compression CLI decompressor
 net-irc/limnoria-plugins 9999: Official set of extra plugins for Supybot
 net-misc/godaddy-ddns 0.1 9999: A script for dynamically updating a Godaddy DNS record
 net-misc/gopenvpn 9999: A GTK tray icon and GUI for managing OpenVPN connections
@@ -12,7 +16,7 @@ net-print/brother-mfc7860dw-cups 2.0.4_p2-r1: CUPS driver for Brother MFC-6490CW
 net-print/brother-mfc7860dw-lpr 2.1.0_p1: LPR driver for Brother MFC-6490CW
 sys-apps/915resolution 0.5.3-r3: Utility to patch VBIOS of Intel 855 / 865 / 915 chipsets
 sys-apps/duc 1.4.1 9999: A library and suite of tools for inspecting disk usage
-sys-apps/gprename 20140325-r1: GPRename is a complete batch renamer for files and directories
+sys-apps/gprename 20160905: GPRename is a complete batch renamer for files and directories
 sys-block/rocketraid62x 1.3.3-r3: Kernel module for Highpoint RocketRaid 62x raid cards
 x11-libs/libXevie 1.0.3: X.Org Xevie library
 x11-misc/lightdm-gtk-greeter-settings 1.2.0: Settings editor for LightDM GTK+ greeter

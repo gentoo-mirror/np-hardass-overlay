@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare setup unpack
+DEPEND=plgx? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) >=app-admin/keepass-2.20 dev-lang/mono >=dev-vcs/git-1.8.2.1
+DESCRIPTION=KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
+EAPI=6
+HOMEPAGE=https://github.com/pfn/keepasshttp
+IUSE=+plgx
+LICENSE=GPL-3
+RDEPEND=plgx? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) >=app-admin/keepass-2.20
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
+_eclasses_=dotnet	1305f3fcce9fb96d24ddc4898e144081	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	1f24c032c78290b0d9a07d5b343051a7	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0	virtualx	171580f737f5aaf18fcb456548588066
+_md5_=2c4a427248262a7bf7076cec2c78e511

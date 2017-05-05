@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/keepasshttp:plgx - Build plugin as the KeePass PLGX format instead of DLLs
+app-admin/kpentrytemplates:plgx - Build plugin as the KeePass PLGX format instead of DLLs
 sys-apps/duc:X - Use X11 for the GUI instead of OpenGL. This is the recommended option
 sys-apps/duc:cairo - Build support for exporting to PNG and PDF with x11-libs/cairo
 sys-apps/duc:gui - Build support for a graphical client
