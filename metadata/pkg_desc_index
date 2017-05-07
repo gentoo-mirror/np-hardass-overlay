@@ -1,4 +1,4 @@
-app-admin/keepasshttp 1.8.4.1-r2 9999: KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
+app-admin/keepasshttp 1.8.4.2 9999: KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
 app-admin/kpentrytemplates 7.3 9999: KeePass Entry Templates for custom gui displays of your entries
 app-crypt/acme-tiny 9999: A tiny, auditable script for Let's Encrypt's ACME Protocol
 app-laptop/dellfand 0.9-r1: Dell laptop fan regulator for Linux/Solaris.
