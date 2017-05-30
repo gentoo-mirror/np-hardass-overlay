@@ -4,6 +4,7 @@ app-crypt/acme-tiny 9999: A tiny, auditable script for Let's Encrypt's ACME Prot
 app-laptop/dellfand 0.9-r1: Dell laptop fan regulator for Linux/Solaris.
 dev-python/pyshorteners 0.3.0 9999: A simple URL shortening Python Lib, implementing the most famous shorteners.
 games-board/aisleriot 3.2.3.2-r1: A collection of solitaire card games for GNOME
+games-rpg/eve-launcher 1146159: Native Launcher for EVE Online
 media-libs/librealsense 1.9.4-r1 9999: Intel's RealSense 3D Camera API
 media-libs/sfarklib 2.24 9999: SoundFont compression library
 media-sound/pithos 0.3.17-r3: A Pandora Radio (pandora.com) player for the GNOME Desktop
