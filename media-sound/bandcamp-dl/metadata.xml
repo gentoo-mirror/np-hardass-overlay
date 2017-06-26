@@ -5,13 +5,7 @@
 		<email>NP-Hardass@gentoo.org</email>
 		<name>NP-Hardass</name>
 	</maintainer>
-	<use>
-		<flag name="script">Install a configurable cronjob</flag>
-	</use>
-	<longdescription>
-		A tiny, auditable script for Let's Encrypt's ACME Protocol
+	<longdescription lang="en">
+		Simple python script to download bandcamp albums
 	</longdescription>
-	<upstream>
-		<remote-id type="github">diafygi/acme-tiny</remote-id>
-	</upstream>
 </pkgmetadata>
