@@ -9,5 +9,4 @@ LICENSE=GPL-3
 RDEPEND=dev-lang/perl sys-devel/gettext dev-perl/Gtk2 dev-perl/glib-perl dev-perl/Locale-gettext dev-perl/libintl-perl nautilus-actions? ( gnome-extra/nautilus-actions )
 SLOT=0
 SRC_URI=mirror://sourceforge/gprename/gprename-20160905.tar.bz2
-_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _md5_=360427bde3a90cbb76b1d57e2269c82c
