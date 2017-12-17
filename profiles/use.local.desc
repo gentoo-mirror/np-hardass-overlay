@@ -2,14 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-admin/keepasshttp:plgx - Build plugin as the KeePass PLGX format instead of DLLs This currently requires Xvfb support
-app-admin/kpentrytemplates:plgx - Build plugin as the KeePass PLGX format instead of DLLs This currently requires Xvfb support
-app-crypt/acme-tiny:script - Install a configurable cronjob
-sys-apps/duc:X - Use X11 for the GUI instead of OpenGL. This is the recommended option
-sys-apps/duc:cairo - Build support for exporting to PNG and PDF with x11-libs/cairo
-sys-apps/duc:gui - Build support for a graphical client
-sys-apps/duc:leveldb - Use dev-libs/leveldb as the backend
-sys-apps/duc:ncurses - Build support for the ncurses client
-sys-apps/duc:sqlite - Use dev-db/sqlite:3 as the backend
-sys-apps/duc:tokyocabinet - Use dev-db/tokyocabinet as the backend
-sys-apps/gprename:nautilus-actions - Compile with support for Nautilus through "Nautilus-Actions"
