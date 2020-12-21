@@ -1,25 +1,24 @@
 app-admin/keepasshttp 1.8.4.2 9999: KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
 app-admin/kpentrytemplates 7.3 9999: KeePass Entry Templates for custom gui displays of your entries
 app-crypt/acme-tiny 4.0.3 9999: A tiny, auditable script for Let's Encrypt's ACME Protocol
-app-laptop/dellfand 0.9-r1: Dell laptop fan regulator for Linux/Solaris.
 dev-python/pyshorteners 0.3.0 9999: A simple URL shortening Python Lib, implementing the most famous shorteners.
-dev-python/unicode-slugify 0.1.3-r2 9999: A slug generator that turns strings into unicode slugs
+dev-python/unicode-slugify 0.1.3-r3 9999: A slug generator that turns strings into unicode slugs
 games-board/aisleriot 3.2.3.2-r1: A collection of solitaire card games for GNOME
 games-rpg/eve-launcher 1385477: Native Launcher for EVE Online
 media-libs/librealsense 1.9.4-r2 1.12.1-r1 9999: Intel's RealSense 3D Camera API
 media-libs/sfarklib 2.24 9999: SoundFont compression library
 media-sound/bandcamp-dl 0.0.8.12 9999: Simple python script to download Bandcamp albums
-media-sound/pithos 0.3.17-r3: A Pandora Radio (pandora.com) player for the GNOME Desktop
+media-sound/pithos 1.5.0 9999: Pandora.com client for the GNOME desktop
 media-sound/sfarkxtc 9999: SoundFont compression CLI decompressor
 net-misc/godaddy-ddns 0.1_p20190826 9999: A script for dynamically updating a Godaddy DNS record
 net-misc/gopenvpn 9999: A GTK tray icon and GUI for managing OpenVPN connections
 net-misc/linuxptp 1.3 1.4: Precision Time Protocol (PTP) for Linux ( IEEE standard 1588 )
 net-print/brother-mfc7860dw-cups 2.0.4_p2-r1: CUPS driver for Brother MFC-6490CW
-net-print/brother-mfc7860dw-lpr 2.1.0_p1: LPR driver for Brother MFC-6490CW
-sys-apps/915resolution 0.5.3-r3: Utility to patch VBIOS of Intel 855 / 865 / 915 chipsets
+net-print/brother-mfc7860dw-lpr 2.1.0_p1-r1: LPR driver for Brother MFC-6490CW
+sys-apps/915resolution 0.5.3-r4: Utility to patch VBIOS of Intel 855 / 865 / 915 chipsets
 sys-apps/duc 1.4.1 9999: A library and suite of tools for inspecting disk usage
 sys-apps/gprename 20160905: GPRename is a complete batch renamer for files and directories
-sys-block/rocketraid62x 1.3.3-r4: Kernel module for Highpoint RocketRaid 62x raid cards
+sys-block/rocketraid62x 1.3.3-r4 1.3.3-r5 1.3.3-r6: Kernel module for Highpoint RocketRaid 62x raid cards
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
 x11-themes/shiki-colors 4.6-r3: Shiki-Colors mixes the elegance of dark themes with the usability of a light one
 x11-themes/shiki-colors-revival 2.0.1 9999: Shiki-Colors-Revival is a GTK+3 recreation of Shiki-Colors

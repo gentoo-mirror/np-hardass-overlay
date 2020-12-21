@@ -5,6 +5,8 @@
 app-admin/keepasshttp:plgx - Build plugin as the KeePass PLGX format instead of DLLs This currently requires Xvfb support
 app-admin/kpentrytemplates:plgx - Build plugin as the KeePass PLGX format instead of DLLs This currently requires Xvfb support
 app-crypt/acme-tiny:script - Install a configurable cronjob
+media-sound/pithos:appindicator - Enable usage of appindicator to export menu options in to unity
+media-sound/pithos:keybinder - Use keybinder to enable global key bindings
 sys-apps/duc:X - Use X11 for the GUI instead of OpenGL. This is the recommended option
 sys-apps/duc:cairo - Build support for exporting to PNG and PDF with x11-libs/cairo
 sys-apps/duc:gui - Build support for a graphical client
