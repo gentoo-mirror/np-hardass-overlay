@@ -1,5 +1,7 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
+
+EAPI="6"
 
 inherit eutils flag-o-matic
 
@@ -9,34 +11,31 @@ SRC_URI="http://915resolution.mango-lang.org/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
 RDEPEND=""
 
-src_unpack() {
-	unpack ${A}
-	cd "${S}"
-
-	epatch "${FILESDIR}/${P}-freebsd.patch"
-
+PATCHES=(
+	"${FILESDIR}/${P}-freebsd.patch"
 	# add support for 965GM (bug #186661)
-	epatch "${FILESDIR}/${P}-965GM.patch"
-	epatch "${FILESDIR}/${P}-945GME.patch"
-}
+	"${FILESDIR}/${P}-965GM.patch"
+	"${FILESDIR}/${P}-945GME.patch"
+)
+
+DOCS="README.txt changes.log chipset_info.txt dump_bios"
 
 src_compile() {
 	filter-flags -O*
 	emake clean
-	emake CFLAGS="${CFLAGS}" || die "Compiliation failed."
+	emake CFLAGS="${CFLAGS}"
 }
 
 src_install() {
 	dosbin ${PN}
 	newconfd "${FILESDIR}/confd" ${PN}
 	newinitd "${FILESDIR}/initd" ${PN}
-	dodoc README.txt changes.log chipset_info.txt dump_bios
 }
 
 pkg_postinst() {
