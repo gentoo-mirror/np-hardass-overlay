@@ -7,8 +7,6 @@ games-board/aisleriot 3.2.3.2-r1: A collection of solitaire card games for GNOME
 games-rpg/eve-launcher 1385477: Native Launcher for EVE Online
 media-libs/librealsense 1.9.4-r2 1.12.1-r1 9999: Intel's RealSense 3D Camera API
 media-libs/sfarklib 2.24 9999: SoundFont compression library
-media-sound/bandcamp-dl 9999: Simple python script to download Bandcamp albums
-media-sound/pithos 1.5.0 9999: Pandora.com client for the GNOME desktop
 media-sound/sfarkxtc 9999: SoundFont compression CLI decompressor
 net-misc/godaddy-ddns 0.1_p20190826 9999: A script for dynamically updating a Godaddy DNS record
 net-misc/gopenvpn 9999: A GTK tray icon and GUI for managing OpenVPN connections
