@@ -14,7 +14,6 @@ net-misc/linuxptp 1.3 1.4: Precision Time Protocol (PTP) for Linux ( IEEE standa
 net-print/brother-mfc7860dw-cups 2.0.4_p2-r1: CUPS driver for Brother MFC-6490CW
 net-print/brother-mfc7860dw-lpr 2.1.0_p1-r1: LPR driver for Brother MFC-6490CW
 sys-apps/915resolution 0.5.3-r4: Utility to patch VBIOS of Intel 855 / 865 / 915 chipsets
-sys-apps/duc 1.4.1 9999: A library and suite of tools for inspecting disk usage
 sys-apps/gprename 20210328: GPRename is a complete batch renamer for files and directories
 sys-block/rocketraid62x 1.3.3-r4 1.3.3-r5 1.3.3-r6: Kernel module for Highpoint RocketRaid 62x raid cards
 x11-themes/shiki-colors 4.6-r3: Shiki-Colors mixes the elegance of dark themes with the usability of a light one
