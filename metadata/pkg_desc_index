@@ -2,7 +2,6 @@ app-admin/keepasshttp 1.8.4.2 9999: KeePass plugin to expose password entries se
 app-admin/kpentrytemplates 7.3 9999: KeePass Entry Templates for custom gui displays of your entries
 app-crypt/acme-tiny 4.1.0 9999: A tiny, auditable script for Let's Encrypt's ACME Protocol
 dev-python/unicode-slugify 0.1.3-r3 9999: A slug generator that turns strings into unicode slugs
-games-board/aisleriot 3.2.3.2-r1: A collection of solitaire card games for GNOME
 games-rpg/eve-launcher 1385477: Native Launcher for EVE Online
 media-libs/librealsense 1.9.4-r2 1.12.1-r1 9999: Intel's RealSense 3D Camera API
 media-libs/sfarklib 2.24 9999: SoundFont compression library
